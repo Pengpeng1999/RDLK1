@@ -122,10 +122,3 @@ Precomputed node2vec embeddings are stored in `n2v/`. By default, `--use-embeddi
 
 If `--use-embedding` is enabled, make sure the embedding path in `main.py` points to the local `n2v/` directory, or regenerate embeddings with `generate_node2vec_embeddings` in `utils.py`.
 
-## Notes for Reproducibility
-
-- Run commands from the repository root so that `data/` can be resolved correctly.
-- The default train/test split uses an 80/20 positive-link split.
-- Negative links are sampled from unobserved node pairs.
-- The script currently caps the number of training links with `--max-train-num`.
-- Some feature settings are controlled by commented lines in `main.py`; please keep the selected feature combination consistent when reproducing reported results.
