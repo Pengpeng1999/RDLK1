@@ -1,6 +1,6 @@
 # RDLK: Low-Rank Topology-Attribute Decoupling for Link Prediction
 
-This repository contains the reference implementation of **RDLK**, a subgraph-based link prediction method that constructs topology and attribute features through low-rank decomposition and similar-subgraph retrieval.
+This repository contains the implementation of **RDLK**, a subgraph-based link prediction method that constructs topology and attribute features through low-rank decomposition and similar-subgraph retrieval.
 
 The code is associated with the manuscript:
 
